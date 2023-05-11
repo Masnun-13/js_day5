@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Day5</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="product-area">
+                <table class="product-table" id="prodtab">
+                    <thead>
+                        <th>Book Name</th>
+                        <th>Book Price</th>
+                        <th>Author Name</th>
+                        <th>Publishing Date</th>
+                    </thead>
+                </table>
+                <button class="clicker" id="deletebutt">Delete All Books</button>        
+            </div>
+            <br>
+            <br>
+            <div class="input">
+                <h2>Add Book:</h2>
+                <form class="input" id="inputForm">
+                    <label class="input-box" for="bookName">Book Name</label>
+                    <input class="input-box" type="text" id="bookName">
+                    <br>
+                    <label class="input-box" for="bookPrice">Price ($)</label>
+                    <input class="input-box" type="number" id="bookPrice">
+                    <br>
+                    <label class="input-box" for="authName">Author Name</label>
+                    <input class="input-box" type="text" id="authName">
+                    <br>
+                    <label class="input-box" for="bookDate">Publishing Date</label>
+                    <input class="input-box" type="text" id="bookDate">
+                    <br>
+                    <button class="clicker" id="subbutt">Submit</button>
+                </form>
+            </div>
+            <br>
+        </div>
+
+        <script src="script.js" async defer></script>
+    </body>
+</html>
